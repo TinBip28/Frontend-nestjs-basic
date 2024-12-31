@@ -88,6 +88,7 @@ const CompanyCard = (props: IProps) => {
                                         cover={
                                             <div className={styles["card-customize"]} >
                                                 <img
+                                                    style={{ width: "200px", height: "200px"}}
                                                     alt="example"
                                                     src={`${import.meta.env.VITE_BACKEND_URL}/images/company/${item?.logo}`}
                                                 />
